@@ -5,23 +5,31 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div id="root">
-      <h1>BIEENVENID@</h1>
+ <body>
+    <div id="inicio">
+      <h1>BIENVENID@</h1>
       <h2>Mensajes secretos entre amigas</h2>
       <p>Wendy y Arleth son amigas desde.....</p>
-      
-
+      <form>
+        <label for="name">Ingrea tu secret name: </label>
+        <input type="text" name="Ingrea tu secret name" id="name">
+        <button type = "button" id= "myBtn">Ingresar</button>
+      </form>
     </div>
-    <form action="/action_page.php">
-     Ingrea tu secret name: <br>
-     <input type="text" name = "Ingrea tu secret name">
-     <Br>
-      apelli: <br>
-      <input type="text" name = "lastname"
-      <Br><br>
-     <input type="submit">
-    </form>
+    <div id="ventana" class="none">
+      <p>cipherCBCHCHCH</p>
+      <form>
+        <!--<<input type= "text" textarea name="comentarios" rows="15" cols="50">Escribe aquí tu mensaje</textarea> -->
+ 
+        <input type="text" id="mensaje"/>
+        <p> Número de desplazamiento: <input type="number" name="offset" id="desplazamiento"/ > </p>
+        <button type = "button" id= "cifrara">click</button>&nbsp;&nbsp;&nbsp;
+        <button type = "button" id= "descifrar">DESCIFRAR</button>
+        <p id="salida"> salebh</p>
+      </form>
+      
+    </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
