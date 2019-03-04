@@ -4,19 +4,34 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fontello.css">
   </head>
- <body>
-    <div id="inicio">
-      <h1>BIENVENID@</h1>
-      <h2>Mensajes secretos entre amigas</h2>
-      <p>Wendy y Arleth son amigas desde.....</p>
-      <form>
-        
-        <label for="name">Ingrea tu secret name: </label>
-        <input type="text" name="Ingrea tu secret name" id="name">
-        <button type = "button" id= "myBtn">Ingresar</button>
-      </form>
-    </div>
+  <body>
+    <header>
+      <div class="contenedor">
+       <h1 class="icon-user-secret">Secret Messenger</h1>
+      </div>
+    </header>
+    <main>
+      <section id="banner">
+        <img src="img/banner.png"> 
+        <div class="contenedor">
+          <h2>Cifrado y descifrado de mensajes</h2>
+          <p>"TODOS TENEMOS ALGO QUE OCULTAR"</p>
+        </div>
+      </section>
+    
+      <section id="inicio">
+        <h2>BIENVENIDOS</h2>
+        <h4>Secret Messenger</h4>
+        <p>Estas organizando unas vacaciones con tus amigos o estas planeando salir a fiestas, sin embargo tu familia puede entrar a tus redes sociales y leer tus mensajes. ¡Te comprendemos porque siempre TODOS TENEMOS ALGO QUE OCULTAR!, es por eso que en <strong>Secret Messenger </strong> puedes cifrar tus mensajes con la información que quieres ocultar y solo tus amigos o la persona de tu interés podrá descifrar tus mensajes.</p>
+        <form>
+          <label for="name">Ingrea tu secret name: </label>
+          <input type="text" name="Ingrea tu secret name" id="name">
+          <button type = "button" id= "myBtn">Ingresar</button>
+        </form>
+      </section>
+    </main>
     <div id="ventana" class="none">
       <p>cipherCBCHCHCH</p>
       <form>
@@ -27,10 +42,8 @@
         <button type = "button" id= "cifrara">CIFRAR</button>&nbsp;&nbsp;&nbsp;
         <button type = "button" id= "descifrar">DESCIFRAR</button>
         <p id="salida"></p>
-      </form>
-      
-    </div>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+      </form>      
+    </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
