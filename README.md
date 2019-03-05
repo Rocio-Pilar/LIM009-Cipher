@@ -1,4 +1,15 @@
-# Cifrado César
+# Secret Messenger
+Te ha sucedido que cuando quieres planificar un viaje, fiesta u otro tipo de evento con tus amigos necitas algo de privacidad para ciertas coordinaciones secretas, o cuando conversas con tu mejor amigo y quieres contarles cosas que solo él  pueda entender, sin correr el riesgo de que cualquier persona que revise tus redes sociales pueda leer tu conversación íntima ya que (_todos tenemos algo que ocultar_), es por eso que creamos **Secret Messenger** para que te puedas expresar libremente con la seguridad de escribir en códigos tus mensajes que solo la persona de tu interés pueda entender descifrando tu mensaje. 
+bb[src/img/banner.png]
+
+    , 
+En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
+
+- Quiénes son los principales usuarios de producto.
+- Cuáles son los objetivos de estos usuarios en relación con tu producto.
+- Cómo crees que el producto que estás creando está resolviendo sus problemas.
+
+
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
