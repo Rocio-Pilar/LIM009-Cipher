@@ -5,6 +5,7 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="fontello.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <header>
@@ -23,7 +24,7 @@
     
       <section id="inicio">
         <h2>BIENVENIDOS</h2>
-        <h4>Secret Messenger</h4>
+        <h3>Secret Messenger</h3>
         <p>Estas organizando unas vacaciones con tus amigos o estas planeando salir a fiestas, sin embargo tu familia puede entrar a tus redes sociales y leer tus mensajes. ¡Te comprendemos porque siempre TODOS TENEMOS ALGO QUE OCULTAR!, es por eso que en <strong>Secret Messenger </strong> puedes cifrar tus mensajes con la información que quieres ocultar y solo tus amigos o la persona de tu interés podrá descifrar tus mensajes.</p>
         <form>
           <label for="name">Ingrea tu secret name: </label>
@@ -33,11 +34,9 @@
       </section>
     </main>
     <div id="ventana" class="none">
-      <p>cipherCBCHCHCH</p>
+      <p>Escribe el mensaje que deseas ocultar o mostrar</p>
       <form>
-        <!--<<input type= "text" textarea name="comentarios" rows="15" cols="50">Escribe aquí tu mensaje</textarea> -->
- 
-        <input type="text" id="mensaje"/>
+        <input type="text" id="mensaje" size="48">
         <p> Número de desplazamiento: <input type="number" name="offset" id="desplazamiento"/> </p>
         <button type = "button" id= "cifrara">CIFRAR</button>&nbsp;&nbsp;&nbsp;
         <button type = "button" id= "descifrar">DESCIFRAR</button>
