@@ -1,7 +1,7 @@
 # Secret Messenger
 Te ha sucedido que cuando quieres planificar un viaje, fiesta u otro tipo de evento con tus amigos necitas algo de privacidad para ciertas coordinaciones secretas, o cuando conversas con tu mejor amigo y quieres contarles cosas que solo él  pueda entender, sin correr el riesgo de que cualquier persona que revise tus redes sociales pueda leer tu conversación íntima ya que todos tenemos algo que ocultar, es por eso que creamos Secret Messenger para que te puedas expresar libremente con la seguridad de escribir en códigos tus mensajes que solo la persona de tu interés pueda entender descifrando tu mensaje. 
-![](src.src/banner.png)
-
+![](src:img/banner.png)
+git
 
 
 
