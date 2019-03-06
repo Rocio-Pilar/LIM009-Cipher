@@ -4,17 +4,18 @@ Te ha sucedido que cuando quieres planificar un viaje, fiesta u otro tipo de eve
 
 Este aplicativo web está dirigido para los jóvenes que utilizan redes sociales para comunicarse con sus amigos o familia con el objetivo de realizar coordinaciones secretas expresándose libremente sin temor que otros puedan entender sus mensajes logrando tener mayor privacidad en sus redes sociales.
 
-Este aplicativo web está dirgido para los jóvenes que utilizan redes sociales para comunicarse con sus amigos o familia con el objtivo de realizar coordinaciones secretas expresandose libremente sin temor que otros puedan entender sus mensajes logrando tener mayor privacidad en sus redes sociales.
-
 ## Funcionamiento
 Para acceder a la página de *Secret Messenger* Utiliza el siguiente ling: <https://rociochamorro.github.io/LIM009-Cipher/src/index.html>.
 En la primera ventana de la página se tiene que ingresar un secret name para identificarte.
+
 ![](src/primerapg.png)
 
 Luego ingresa tu mensage que quieres cifrar o descifrar en el cuadro de texto. En esta imagen se muestra la palabra "BARRANCO" ingresada con un desplazamiento de 90 y como resultado obtenemos la palabra decifra: "NMDDMZOA"
+
 ![](src/cifrarpg.png)
 
 En esta imagen se descifra la palabra obtenida anteriormente "NMDDMZOA" con el mismo número de desplazamiento de 90 y obtenemos como resultado: "BARRANCO"
+
 ![](src/descifrarpg.png)
 
 ## Recursos y temas relacionados
