@@ -1,8 +1,10 @@
 # Secret Messenger
 Te ha sucedido que cuando quieres planificar un viaje, fiesta u otro tipo de evento con tus amigos necitas algo de privacidad para ciertas coordinaciones secretas, o cuando conversas con tu mejor amigo y quieres contarles cosas que solo él  pueda entender, sin correr el riesgo de que cualquier persona que revise tus redes sociales pueda leer tu conversación íntima ya que todos tenemos algo que ocultar, es por eso que creamos Secret Messenger para que te puedas expresar libremente con la seguridad de escribir en códigos tus mensajes que solo la persona de tu interés pueda entender descifrando tu mensaje. 
 ![](src/banner.png)
-git
 
+Este aplicativo web está dirigido para los jóvenes que utilizan redes sociales para comunicarse con sus amigos o familia con el objetivo de realizar coordinaciones secretas expresándose libremente sin temor que otros puedan entender sus mensajes logrando tener mayor privacidad en sus redes sociales.
+
+Este aplicativo web está dirgido para los jóvenes que utilizan redes sociales para comunicarse con sus amigos o familia con el objtivo de realizar coordinaciones secretas expresandose libremente sin temor que otros puedan entender sus mensajes logrando tener mayor privacidad en sus redes sociales.
 
 
 
@@ -213,11 +215,16 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es u
 
 ***
 
-## Pistas sobre cómo comenzar a trabajar en el proyecto
+## Procedimiento de la elaboración del proyecto
 
-1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
-   condiciones, algo como [Atom](https://atom.io/) o
+1. Antes de iniciar se eligió y descargó un editor de texto, en este caso:
    [Code](https://code.visualstudio.com/).
+2. Para ejecutar los comandos a continuación necesitarás una :shell:
+   [UNIX Shell](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/shell),
+   que es un programita que interpreta líneas de comando (command-line
+
+GitHub y GitHub Pages
+
 2. Para ejecutar los comandos a continuación necesitarás una :shell:
    [UNIX Shell](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/shell),
    que es un programita que interpreta líneas de comando (command-line
@@ -240,9 +247,7 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es u
 
 ## Recursos y temas relacionados
 
-A continuación un video de Michelle que te lleva a través de la fórmula
-matemática del Cifrado César y un par de cosas más que debes saber para
-resolver este proyecto. ¡Escúchala con detenimiento y sigue sus consejos! :)
+Video de Michelle que me ayudó a plantear la fórmula matemática del Cifrado César.
 
 [![tips caesar cipher](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
 
@@ -269,32 +274,25 @@ Herramientas:
 - [GitHub y GitHub Pages](https://guides.github.com/)
 - [Guía de Scrum](https://www.scrumguides.org/docs/scrumguide/v1/scrum-guide-es.pdf): solamente para comenzar a entender cómo organizar tu trabajo.
 
-## Checklist
 
-Esta sección está  para ayudarte a llevar un control de lo que vas completando.
-
-### Parte Obligatoria
+## Checklist de la parte Obligatoria
 
 * [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
-* [ ] `README.md` explica claramente quiénes son los usuarios y su relación con el producto.
-* [ ] `README.md` explica claramente cómo el producto soluciona los problemas/necesidades de los usuarios.
+* [x] `README.md` explica claramente quiénes son los usuarios y su relación con el producto.
+* [x] `README.md` explica claramente cómo el producto soluciona los problemas/necesidades de los usuarios.
 * [ ] Usa VanillaJS.
-* [ ] No utiliza `this`.
-* [ ] Implementa `cipher.encode`.
-* [ ] Implementa `cipher.decode`.
+* [x] No utiliza `this`.
+* [x] Implementa `cipher.encode`.
+* [x] Implementa `cipher.decode`.
 * [ ] Pasa linter con configuración provista.
-* [ ] Pasa pruebas unitarias.
-* [ ] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
+* [x] Pasa pruebas unitarias.
+* [x] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
   mínimo del 50% de _branches_.
-* [ ] Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
+* [x] Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
   cifrado/descifrado.
-* [ ] Interfaz permite escribir un texto para ser cifrado.
-* [ ] Interfaz muestra el resultado del cifrado correctamente.
-* [ ] Interfaz permite escribir un texto para ser descifrado.
-* [ ] Interfaz muestra el resultado del descifrado correctamente.
+* [x] Interfaz permite escribir un texto para ser cifrado.
+* [x] Interfaz muestra el resultado del cifrado correctamente.
+* [x] Interfaz permite escribir un texto para ser descifrado.
+* [x] Interfaz muestra el resultado del descifrado correctamente.
 
-### Parte Opcional: "Hacker edition"
-
-* [ ] Cifra/descifra minúsculas
-* [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
-* [ ] Permite usar un `offset` negativo.
+Por el momento no se ha desarrollado la parte opcional: "Hacker edition" por motivo de tiempo, sin embargo se estará implementando posteriormente.
