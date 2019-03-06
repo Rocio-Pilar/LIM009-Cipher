@@ -6,7 +6,14 @@ Este aplicativo web está dirigido para los jóvenes que utilizan redes sociales
 
 Este aplicativo web está dirgido para los jóvenes que utilizan redes sociales para comunicarse con sus amigos o familia con el objtivo de realizar coordinaciones secretas expresandose libremente sin temor que otros puedan entender sus mensajes logrando tener mayor privacidad en sus redes sociales.
 
-
+## Funcionamiento
+Para acceder a la página de *Secret Messenger* Utiliza el siguiente ling: <file:///C:/Users/Rocio/Desktop/LIM009-Cipher/src/index.html>.
+En la primera ventana de la página se tiene que ingresar un secret name para identificarte.
+![](src/primerapg.png)
+Luego ingresa tu mensage que quieres cifrar o descifrar en el cuadro de texto. En esta imagen se muestra la palabra "BARRANCO" ingresada con un desplazamiento de 90 y como resultado obtenemos la palabra decifra: "NMDDMZOA"
+![](src/cifrar.png)
+En esta imagen se descifra la palabra obtenida anteriormente "NMDDMZOA" con el mismo número de desplazamiento de 90 y obtenemos como resultado: "BARRANCO"
+![](src/descifrar.png)
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
@@ -222,12 +229,6 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es u
 2. Para ejecutar los comandos a continuación necesitarás una :shell:
    [UNIX Shell](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/shell),
    que es un programita que interpreta líneas de comando (command-line
-
-GitHub y GitHub Pages
-
-2. Para ejecutar los comandos a continuación necesitarás una :shell:
-   [UNIX Shell](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/shell),
-   que es un programita que interpreta líneas de comando (command-line
    interpreter) así como tener [git](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/scm/01-git)
    instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
    ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
@@ -277,14 +278,14 @@ Herramientas:
 
 ## Checklist de la parte Obligatoria
 
-* [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
+* [x] `README.md` incluye info sobre proceso y decisiones de diseño.
 * [x] `README.md` explica claramente quiénes son los usuarios y su relación con el producto.
 * [x] `README.md` explica claramente cómo el producto soluciona los problemas/necesidades de los usuarios.
-* [ ] Usa VanillaJS.
+* [x] Usa VanillaJS.
 * [x] No utiliza `this`.
 * [x] Implementa `cipher.encode`.
 * [x] Implementa `cipher.decode`.
-* [ ] Pasa linter con configuración provista.
+* [x] Pasa linter con configuración provista.
 * [x] Pasa pruebas unitarias.
 * [x] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
   mínimo del 50% de _branches_.
