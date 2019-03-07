@@ -13,11 +13,11 @@ En la primera ventana de la página se tiene que ingresar un secret name para id
 
 Luego ingresa tu mensage que quieres cifrar o descifrar en el cuadro de texto. En esta imagen se muestra la palabra "BARRANCO" ingresada con un desplazamiento de 90 y como resultado obtenemos la palabra decifra: "NMDDMZOA"
 
-![](src/cifrarpg.png)
+![](src/cifrar.png)
 
 En esta imagen se descifra la palabra obtenida anteriormente "NMDDMZOA" con el mismo número de desplazamiento de 90 y obtenemos como resultado: "BARRANCO"
 
-![](src/descifrarpg.png)
+![](src/descifrar.png)
 
 ## Recursos y temas relacionados
 
