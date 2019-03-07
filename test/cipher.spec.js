@@ -1,5 +1,5 @@
 describe('cipher', () => {
-  it('debería ser un objeto',() =>{
+  it('debería ser un objeto', () => {
     assert.equal(typeof cipher, 'object');
   });
   describe('cipher.encode', () => {
@@ -10,6 +10,10 @@ describe('cipher', () => {
       assert.equal(cipher.encode("ABCDEFGHIJKLMNOPQRSTUVWXYZ",33),"HIJKLMNOPQRSTUVWXYZABCDEFG");
    });
  });
+<<<<<<< HEAD
+
+=======
+>>>>>>> 94a7063c98e66df0b39a47ae60ce9107aa436464
 
   describe('cipher.decode', () => {
     it('debería ser una función', () => {
