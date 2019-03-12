@@ -24,4 +24,4 @@ desboton.addEventListener("click", ()=> {
 	const numer= parseInt(salto.value);
 	const resultado = cipher.decode(letra,numer);
    msmsalida.innerHTML= resultado;
-   });
+});

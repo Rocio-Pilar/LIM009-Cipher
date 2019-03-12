@@ -6,6 +6,9 @@ window.cipher = {
     if(65 <= numeroAssci && numeroAssci <= 90){
      nuevaPalabra += String.fromCharCode((numeroAssci-65+offset)%26+65);
     }
+    if(97 <= numeroAssci && numeroAssci <= 122){
+      nuevaPalabra += String.fromCharCode((numeroAssci-97+offset)%26+97);
+     }
    }
    return nuevaPalabra;
   },
@@ -15,7 +18,10 @@ window.cipher = {
       let numeroAssci= string.charCodeAt(i);
       if(65 <= numeroAssci && numeroAssci <= 90){
        nuevaPalabra += String.fromCharCode((numeroAssci-90-offset)%26+90);
-      }
+      }     
+      if(97 <= numeroAssci && numeroAssci <= 122){
+        nuevaPalabra += String.fromCharCode((numeroAssci-122+offset)%26+122);
+       }                                                             
      }
      return nuevaPalabra;
     },
